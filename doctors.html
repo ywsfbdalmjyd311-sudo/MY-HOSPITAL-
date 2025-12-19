@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أطباء القسم</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f7f6; margin: 0; }
+        header { background-color: #007bff; color: white; padding: 15px; display: flex; justify-content: space-between; align-items: center; padding-left: 50px; padding-right: 50px;}
+        .container { width: 90%; max-width: 900px; margin: 30px auto; }
+        
+        .doctor-card {
+            background: white; border-radius: 10px; padding: 20px;
+            margin-bottom: 20px; display: flex; align-items: center; justify-content: space-between;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-right: 5px solid #007bff;
+        }
+        .doc-info { display: flex; align-items: center; gap: 20px; }
+        .doc-img { width: 80px; height: 80px; background-color: #ddd; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 30px; }
+        
+        .details h3 { margin: 0 0 5px 0; color: #333; }
+        .details p { margin: 2px 0; color: #666; font-size: 14px; }
+        .rating { color: #ffc107; font-weight: bold; }
+        
+        .btn { background-color: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.3s; }
+        .btn:hover { background-color: #0056b3; }
+        .back-btn { color: white; text-decoration: none; font-weight: bold; border: 1px solid white; padding: 5px 15px; border-radius: 5px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>👨‍⚕️ نخبة الأطباء المتخصصين</h1>
+        <a href="index.html" class="back-btn">🏠 الرجوع للرئيسية</a>
+    </header>
+
+    <div class="container">
+        <div class="doctor-card">
+            <div class="doc-info">
+                <div class="doc-img">👨‍⚕️</div>
+                <div class="details">
+                    <h3>د. مصطفى محمد</h3>
+                    <p>استشاري طب وجراحة الأسنان - القصر العيني</p>
+                    <p class="rating">⭐ 4.9 (150 تقييم)</p>
+                    <p style="color: green; font-size: 12px;">✅ تم التحقق من الهوية</p>
+                </div>
+            </div>
+            <a href="profile.html" class="btn">عرض التفاصيل والحجز</a>
+        </div>
+
+        <div class="doctor-card">
+            <div class="doc-info">
+                <div class="doc-img">👨‍⚕️</div>
+                <div class="details">
+                    <h3>د. محمد مصري</h3>
+                    <p>أخصائي تقويم الأسنان - الزمالة البريطانية</p>
+                    <p class="rating">⭐ 4.7 (98 تقييم)</p>
+                    <p style="color: green; font-size: 12px;">✅ تم التحقق من الهوية</p>
+                </div>
+            </div>
+            <a href="profile.html" class="btn">عرض التفاصيل والحجز</a>
+        </div>
+
+        <div class="doctor-card">
+            <div class="doc-info">
+                <div class="doc-img">👨‍⚕️</div>
+                <div class="details">
+                    <h3>د.ابراهيم خالد</h3>
+                    <p>أخصائي زراعة الأسنان</p>
+                    <p class="rating">⭐ 4.5 (45 تقييم)</p>
+                    <p style="color: green; font-size: 12px;">✅ تم التحقق من الهوية</p>
+                </div>
+            </div>
+            <a href="profile.html" class="btn">عرض التفاصيل والحجز</a>
+        </div>
+    </div>
+
+</body>
+</html>ٍ
